@@ -13,7 +13,7 @@ namespace TestWebCoreApp.Controllers
             _logger = logger;
         }
 
-        public IActionResult IndexPage()
+        public IActionResult Index()
         { 
             return View();
         }
